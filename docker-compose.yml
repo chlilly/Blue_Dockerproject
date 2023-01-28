@@ -1,7 +1,8 @@
 version: "3.9"
 services:
-  blue_dockerproject: 
+  blue_dockerproject-web: 
     image: public.ecr.aws/h3j6c5w8/blue_dockerproject-web:latest
+
   web:
     build: .
     ports:
